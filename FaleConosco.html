@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="Faleconosco.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:wght@300;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="Logo">
+            <img src="PaginaInicialImagens/Logo.png" alt="Logo do instituto">
+        </div>
+        <div class="doeaqui">
+            <a href="FaleConosco.html">
+                <p>Doe aqui <img src="PaginaInicialImagens/coracao.png" alt="coração">
+                </p>
+            </a>
+        </div>
+        <div class="promocoes">
+            <a href="Promocoes.html">
+                <p>Promoções</p>
+            </a>
+        </div>
+        <div class="parceiros">
+            <a href="Parceiros.html">
+                <p>Parceiros</p>
+            </a>
+        </div>
+        <div class="nossaloja">
+            <a href="Loja.html">
+                <p>Nossa Loja</p>
+            </a>
+        </div>
+        <div class="sobrenos">
+            <a href="SobreNos.html">
+                <p>Sobre Nós</p>
+            </a>
+        </div>
+        <div class="faleconosco">
+            <a href="FaleConosco.html">
+                <p>Fale Conosco</p>
+            </a>
+        </div>
+    </header>
+
+    <div class="introducao">
+        <h1 class="fale">
+            Fale com o instituto!
+        </h1>
+
+        <p class="texto1">
+            O Instituto Ronald McDonald é uma organização sem fins lucrativos que atua com a missão de promover a saúde
+            e qualidade de vida de adolescentes e crianças com câncer.<br><br>
+
+            Fundada em 1999, a organização coordena ações focadas exclusivamente na causa do câncer infantil e juvenil,
+            com abordagens antes, durante e depois do tratamento.
+        </p>
+    </div>
+
+    <hr class="linha1">
+
+    <div class="cadastro">
+        <h1>
+            Fale Conosco!
+        </h1>
+    </div>
+
+    <div class="espaconome">
+        <label class="nome" for="nomecompleto">Nome completo:</label>
+        <br>
+        <input class="inputnome" type="text" name="Nome Completo" id="nomecompleto">
+    </div>
+
+    <form class="espacogenero" action="/action_page.php">
+        <label class="genero" for="generos">Gênero:</label>
+        <br>
+        <select class="inputgenero" id="generos" name="generos">
+            <option value="---">---</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="naodizer">Prefiro não dizer</option>
+            <option value="outro">Outro</option>
+        </select>
+    </form>
+
+    <div class="espacodata">
+        <label class="data" for="data">Data de Nascimento:</label>
+        <br>
+        <input class="inputdata" type="date" name="Data de nascimento" id="data">
+    </div>
+
+    <form class="espacoestado" action="/action_page.php">
+        <label class="estado" for="estadocivil">Estado civil:</label>
+        <br>
+        <select class="inputestado" id="estadocivil" name="estadocivil">
+            <option value="---">---</option>
+            <option value="solteiro">Solteiro</option>
+            <option value="casado">Casado</option>
+            <option value="viuvo">Víuvo</option>
+            <option value="divorciado">Divorciado</option>
+            <option value="separado">Separado</option>
+        </select>
+    </form>
+
+    <div class="espacoemail">
+        <label class="email" for="email">E-Mail:</label>
+        <br>
+        <input class="inputemail" type="email" name="email" id="email">
+    </div>
+
+    <div class="espacotelefone">
+        <label class="telefone" for="telefone">Telefone:</label>
+        <br>
+        <input class="inputtelefone" type="tel" name="telefone" id="telefone">
+    </div>
+
+    <form action="/action_page.php">
+        <label class="assunto" for="assunto">Assunto:</label>
+        <br>
+        <select class="inputassunto" id="assunto" name="assunto">
+            <option value="---">---</option>
+            <option value="elogio">Elogio</option>
+            <option value="reclamacao">Reclamação</option>
+            <option value="duvida">Dúvida</option>
+            <option value="denuncia">Denuncia</option>
+            <option value="outro">Outro</option>
+        </select>
+    </form>
+
+    <div class="espacomensagem">
+        <label class="mensagem" for="mensagem">Mensagem:</label>
+        <br>
+        <input class="inputmensagem" type="text" name="mensagem" id="mensagem">
+    </div>
+
+    <input class="enviar" type="submit">
+
+    <div class="endereco">
+        <p>
+            -(21) 2176-3808
+            <br><br>
+            -Rua Pedro Guedes, 29 -3º andar
+            <br><br>
+            -Maracanã
+            -Rio de Janeiro
+            -20271-040
+            <br><br>
+            -Horário de Atendimento
+            9h às 16h
+
+        </p>
+    </div>
+
+    <div class="final">
+        <div class="politicasetermo">
+            <p>
+                Politícas e termos de privacidade
+            </p>
+        </div>
+
+        <div class="politicasdeprivacidade">
+            <a href="PoliticasDePrivacidade.html">
+                <p>
+                    Políticas de privacidade
+                </p>
+            </a>
+        </div>
+        <div class="termosecondicoes">
+            <p>
+                Termos e Condições
+            </p>
+        </div>
+        <div class="contato">
+            <p>
+                Contato
+            </p>
+        </div>
+        <div class="faleconoscobarrabaixo">
+            <p>
+                Fale conosco
+            </p>
+        </div>
+        <div class="acessoriaeimprensa">
+            <a href="FaleConosco.html">
+                <p>
+                    Fale com a acessoria e imprensa
+                </p>
+            </a>
+        </div>
+
+
+        <a href="https://twitter.com/institutoronald">
+            <img src="PaginaInicialImagens/twitter.png" alt="lindo para o twitter" class="twitter">
+        </a>
+        <a href="https://www.instagram.com/institutoronald/">
+            <img src="PaginaInicialImagens/insta.png" alt="Link do instagram" class="insta">
+        </a>
+
+        <a href="https://www.facebook.com/InstitutoRonaldMcDonald/?locale=pt_BR">
+            <img src="PaginaInicialImagens/facebook.png" alt="link para o facebook" class="facebook">
+        </a>
+
+        <a href="https://www.youtube.com/user/institutoronald">
+            <img src="PaginaInicialImagens/youtube.png" alt="link para o youtube" class="youtube">
+        </a>
+
+        <a href="https://br.linkedin.com/company/instituto-ronald-mcdonald">
+            <img src="PaginaInicialImagens/linkedin.png" alt="link para linkedin" class="linkedin">
+        </a>
+    </div>
+    <div class="corfundoteste">
+        <p>a</p>
+    </div>
+</body>
+
+</html>

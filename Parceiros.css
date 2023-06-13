@@ -1,0 +1,459 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.doeaqui,
+.promocoes,
+.parceiros,
+.nossaloja,
+.sobrenos,
+.faleconosco {
+    margin-top: 70px;
+
+}
+
+a {
+    color: #000000;
+}
+
+.logo {
+    width: 250px;
+    left: 0px;
+    margin-left: 100px;
+}
+
+.doeaqui {
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.promocoes {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+
+}
+
+.parceiros {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.nossaloja {
+
+    top: 71px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.sobrenos {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.faleconosco {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.linha{
+    width: 100%;
+    height: 0px; 
+    border: 0.3px solid #000000;
+}
+
+.parce{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.parcei{
+    top: 50px;
+    width: 250px;
+    position: relative;
+    align-items: center;
+    z-index: 98;
+}
+
+
+.titulo{
+    top: 3px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    z-index: 99;
+}
+
+.empresas{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inbrf{
+    width: 250px;
+}
+
+.brf{
+    width: 270px;
+    height: 110px;
+    margin-left: 100px;
+    
+}
+
+.aug{
+    height: 110px;
+    width: 180px;
+}
+
+.auge{
+    width: 250px;
+   
+    
+}
+
+.empresas2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dro{
+    width: 370px;
+    height: 90px;
+    margin-left: 20px;
+}
+
+.atac{
+    width: 270px;
+    height: 90px;
+    margin-bottom: 100px;
+}
+
+.sejaum{
+    background-color:#7D1300 ;
+}
+
+.titulo2{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    top: 15px;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+
+.texto{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    color: white;
+    margin-top: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.texto2{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    color: white;
+    margin-top: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.form{
+    text-align: center;
+    
+}
+
+.formulario{
+    margin-top: 50px;
+    
+    align-items: center;
+}
+
+.nomecom{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.email{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+label{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-left: 25%;
+}
+
+.mensagem{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.botao{
+    
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 7px 15px;
+
+}
+
+.bot{
+    display: flex;
+    justify-content: center;
+}
+
+.botao:hover{
+    background-color: #FEC208;
+}
+
+input, button, textarea{
+    border-radius: 7px;
+    border: black 1px solid;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.3);
+    display:block;
+   
+}
+
+input:focus, button:focus, textarea:focus{
+    background-color: #E1E1E1;
+}
+
+.selo{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+
+.selo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.seloo{
+    width: 250px;
+}
+
+.confirma{
+    margin-top: 25px;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: black;
+    justify-content: center;
+    
+}
+
+.dispo{
+    margin-top: 25px;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #7D1300;
+    justify-content: center;
+    
+}
+
+.barrafinal {
+   
+    background: #ffffff;
+    height: 50px;
+   
+
+}
+
+.politicasetermo {
+    position: absolute;
+    height: 28px;
+    left: 300px;
+    top: 3050px;
+    width: 400px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.politicasdeprivacidade {
+    position: absolute;
+    width: 225px;
+    height: 23px;
+    left: 500px;
+    top: 3100px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.termosecondicoes {
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 300px;
+    top: 3100px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px   ;
+
+    color: #000000;
+}
+
+
+
+.contato {
+    position: absolute;
+    width: 74px;
+    height: 23px;
+    left: 300px;
+    top: 3190px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.acessoriaeimprensa {
+    position: absolute;
+    width: 310px;
+    height: 23px;
+    left: 440px;
+    top: 3190px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.faleconoscobarrabaixo {
+    position: absolute;
+    width: 160px;
+    height: 28px;
+    left: 300px;
+    top: 3140px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+.twitter{
+    position: absolute;
+    right: 300px;
+    top: 3110PX;
+    bottom: 1%;
+    width: 25PX;
+}
+
+.facebook{
+    position: absolute;
+    right: 350px;
+    top: 3110PX;
+    bottom: 2.77%;
+    width: 25PX;
+}
+
+.insta{
+    position: absolute;
+    right: 400px;
+    top: 3110PX;
+    bottom: 2.77%;
+    width: 25PX;
+}
+
+.linkedin{
+    position: absolute;
+    right: 450px;
+    top: 3110PX;
+    bottom: 2.77%;
+    width: 25PX;
+}
+
+.youtube {
+    position: absolute;
+    right: 500px;
+    top: 3110PX;
+    width: 25PX;
+    
+}

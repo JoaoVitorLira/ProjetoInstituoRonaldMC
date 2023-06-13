@@ -1,0 +1,316 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+header {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    background-color: #FEC208;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.doeaqui,
+.promocoes,
+.parceiros,
+.nossaloja,
+.sobrenos,
+.faleconosco {
+    margin-top: 70px;
+
+}
+
+a {
+    color: #000000;
+}
+
+.logo {
+    width: 250px;
+    left: 0px;
+    margin-left: 100px;
+   
+}
+
+.doeaqui {
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.promocoes {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+
+}
+
+.parceiros {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.nossaloja {
+
+    top: 71px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.sobrenos {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.faleconosco {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+
+.priv{
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    top: 200px;
+    margin-left: 150px ;
+    color:#CF240A ;
+}
+
+.texto1{
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    top: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+.tip{
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    top: 650px;
+    margin-left: 150px ;
+    color:#CF240A ;
+}
+
+.forne{
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    top: 700px;
+    margin-left: 150px ;
+    color:#CF240A ;
+}
+
+.texto2{
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    top: 740px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+.autom{
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    top: 900px;
+    margin-left: 150px ;
+    color:#CF240A ;
+}
+
+.texto3{
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    top: 950px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+.cook{
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    top: 1100px;
+    margin-left: 150px ;
+    color:#CF240A ;
+}
+
+.arm{
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    top: 1150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+.final{
+    
+    height: 100px;
+    top: 1800px;
+}
+
+.politicasetermo {
+    position: absolute;
+    height: 28px;
+    left: 150px;
+    right: 972px;
+    top: 1700px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.politicasdeprivacidade {
+    position: absolute;
+    width: 225px;
+    height: 23px;
+    left: 400px;
+    top: 1740px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.termosecondicoes {
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 150px;
+    top: 1740px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+
+
+.contato {
+    position: absolute;
+    width: 74px;
+    height: 23px;
+    left: 150px;
+    top: 1840px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.acessoriaeimprensa {
+    position: absolute;
+    width: 310px;
+    height: 23px;
+    left: 320px;
+    top: 1840px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.faleconoscobarrabaixo {
+    position: absolute;
+    width: 160px;
+    height: 28px;
+    left: 150px;
+    top: 1800px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+.twitter{
+    position: absolute;
+    right: 150px;
+    top: 1800PX;
+    bottom: 2.77%;
+}
+
+.facebook{
+    position: absolute;
+    right: 200px;
+    top: 1800PX;
+    bottom: 2.77%;
+}
+
+.insta{
+    position: absolute;
+    right: 250px;
+    top: 1800PX;
+    bottom: 2.77%;
+}
+
+.linkedin{
+    position: absolute;
+    right: 300px;
+    top: 1800PX;
+    bottom: 2.77%;
+}
+
+.youtube{
+    position: absolute;
+    right: 350px;
+    top: 1800PX;
+    bottom: 2.77%;
+}
+
