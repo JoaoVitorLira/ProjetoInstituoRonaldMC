@@ -5,43 +5,44 @@
     text-decoration: none;
 }
 
-.menu {
-    border: 0;
-    margin-left: 300px;
-    margin-right: 300px;
-    padding: 0;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-around;
-    margin-top: 0;
-
-
-
-
-
-
-}
-
 .doeaqui,
-.promocoes,
-.parceiros,
-.nossaloja,
-.sobrenos,
 .faleconosco,
-.logo {
-    margin-top: 70px;
+.sobrenos,
+.nossaloja,
+.parceiros,
+.promocoes {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
 
-
+    color: #000000;
 }
+
+
+.barra {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    
+}
+
+
 
 a {
     color: #000000;
+    text-decoration: none;
 }
 
 .logo {
     width: 250px;
-    left: 0px;
-    margin-left: 100px;
+    
+
 }
 
 .doeaqui {
@@ -143,6 +144,8 @@ a {
 
 .slide img {
     width: 1440px;
+    border-radius: 20px;
+    
 
 }
 
@@ -229,6 +232,7 @@ a {
 .funciona {
     background-color: #FEC208;
     height: 450px;
+    width: 100;
 
 }
 
@@ -240,6 +244,7 @@ a {
     line-height: 77px;
     margin-left: 300px;
     margin-right: 300px;
+    
 
     color: #000000;
 }
@@ -275,13 +280,13 @@ a {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 200px;
 
     color: #000000;
 }
 
 .compras1 {
-    margin-left: 300px;
+    margin-left: 190px;
     background-color: rgb(255, 255, 255);
     position: relative;
     width: 1500px;
@@ -348,6 +353,48 @@ a {
     top: 200px;
 }
 
+.porcecamisa{
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: black;
+    margin-left: 300px;
+    top: 250px; 
+
+    background-color: #FEC208;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.linha{
+    margin-top: 20px;
+    width: 100%;
+    height: 0px; 
+    border: 0.3px solid #000000;
+}   
+
+.comprar:hover{
+    background-color: #FF2D08;
+}
+
+.comprarsueter:hover{
+    background-color:  #FF2D08;
+}
+
+.comprarmeias:hover{
+    background-color:  #FF2D08;
+}
+
+.comprarbolsa:hover{
+    background-color:  #FF2D08;
+}
+
+
 .comprar {
     position: absolute;
     font-family: 'Raleway';
@@ -366,7 +413,7 @@ a {
 }
 
 .compras2 {
-    margin-left: 300px;
+    margin-left: 190px;
     background-color: rgb(255, 255, 255);
     position: relative;
     width: 550px;
@@ -448,6 +495,24 @@ a {
     padding: 5px;
     border: 2px solid;
     border-radius: 20px;
+}
+
+.porcesueter{
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: black;
+    margin-left: 300px;
+    top: 250px; 
+
+    background-color: #FEC208;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px; 
 }
 
 .compras3 {
@@ -538,6 +603,24 @@ a {
     border-radius: 20px;
 }
 
+.porcemeias{
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: black;
+    margin-left: 300px;
+    top: 250px; 
+
+    background-color: #FEC208;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
 .compras4 {
 
     background-color: rgb(255, 255, 255);
@@ -626,6 +709,24 @@ a {
     border-radius: 20px;
 }
 
+.porcebolsa{
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: black;
+    margin-left: 300px;
+    top: 250px; 
+
+    background-color: #FEC208;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
 .bolsa,
 .sueter,
 .camiseta,
@@ -634,106 +735,149 @@ a {
     height: 400px;
 }
 
-.final {
-    margin-top: 200px;
-    background-color: #7D1300;
-    ;
-    position: relative;
-}
+.barrafinal {
 
-.politicasetermo,
-.politicasdeprivacidade,
-.termosecondicoes,
-.contato,
-.faleconoscobarrabaixo,
-.acessoriaeimprensa {
-    margin-left: 300px;
-    position: relative;
-}
+    background: #ffffff;
+    height: 50px;
 
-.termosecondicoes {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 28px;
-    color: #FFFFFF;
-    width: 290px;
 
-    top: 18px;
-
-    margin-left: 500px;
-}
-
-.politicasdeprivacidade {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 28px;
-    color: #FFFFFF;
-    width: 180px;
-    top: -10px;
 }
 
 .politicasetermo {
-    top: 10px;
-    margin-top: 20px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-
-    color: #FFFFFF;
-
-}
-
-.faleconoscobarrabaixo {
+    position: absolute;
+    height: 28px;
+    left: 300px;
+    top: 3050px;
+    width: 400px;
 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: #FFFFFF;
+
+    color: #000000;
 }
+
+.politicasdeprivacidade {
+    position: absolute;
+    width: 225px;
+    height: 23px;
+    left: 500px;
+    top: 3100px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.termosecondicoes {
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 300px;
+    top: 3100px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+
 
 .contato {
+    position: absolute;
+    width: 74px;
+    height: 23px;
+    left: 300px;
+    top: 3190px;
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 28px;
-    color: #FFFFFF;
-    top: 10px;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
 }
 
 .acessoriaeimprensa {
+    position: absolute;
+    width: 310px;
+    height: 23px;
+    left: 440px;
+    top: 3190px;
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.faleconoscobarrabaixo {
+    position: absolute;
+    width: 160px;
+    height: 28px;
+    left: 300px;
+    top: 3140px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 28px;
-    color: #FFFFFF;
-    width: 290px;
-    margin-left: 400px;
-    top: -18px;
+
+    color: #000000;
+
 }
 
-.links {
-    position: relative;
+.twitter {
+    position: absolute;
+    right: 300px;
+    top: 3110PX;
+    bottom: 1%;
+    width: 25PX;
 }
 
-.twitter,
-.insta,
-.facebook,
-.youtube,
+.facebook {
+    position: absolute;
+    right: 350px;
+    top: 3110PX;
+    bottom: 2.77%;
+    width: 25PX;
+}
+
+.insta {
+    position: absolute;
+    right: 400px;
+    top: 3110PX;
+    bottom: 2.77%;
+    width: 25PX;
+}
+
 .linkedin {
-    width: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
+    position: absolute;
+    right: 450px;
+    top: 3110PX;
+    bottom: 2.77%;
+    width: 25PX;
+}
+
+.youtube {
+    position: absolute;
+    right: 500px;
+    top: 3110PX;
+    width: 25PX;
 
 }

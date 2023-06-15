@@ -5,34 +5,57 @@
     text-decoration: none;
 }
 
-header {
+.menu {
     border: 0;
-    margin: 0;
+    margin-left: 300px;
+    margin-right: 300px;
     padding: 0;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    margin-top: 0;
+
+
 }
 
 .doeaqui,
-.promocoes,
-.parceiros,
-.nossaloja,
+.faleconosco,
 .sobrenos,
-.faleconosco {
-    margin-top: 70px;
+.nossaloja,
+.parceiros,
+.promocoes {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
 
+    color: #000000;
 }
+
+
+.barra {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    
+}
+
+
 
 a {
     color: #000000;
+    text-decoration: none;
 }
 
 .logo {
     width: 250px;
-    left: 0px;
-    margin-left: 100px;
+    
+
 }
 
 .doeaqui {
@@ -40,7 +63,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -50,7 +73,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 
@@ -60,7 +83,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -71,7 +94,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -80,7 +103,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -89,7 +112,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -324,7 +347,7 @@ input:focus, button:focus, textarea:focus{
     position: absolute;
     height: 28px;
     left: 300px;
-    top: 2100px;
+    top: 180px;
     width: 400px;
 
     font-family: 'Raleway';
@@ -341,7 +364,7 @@ input:focus, button:focus, textarea:focus{
     width: 225px;
     height: 23px;
     left: 500px;
-    top: 2150px;
+    top: 220px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -357,7 +380,7 @@ input:focus, button:focus, textarea:focus{
     width: 200px;
     height: 23px;
     left: 300px;
-    top: 2150px;
+    top: 220px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -375,7 +398,7 @@ input:focus, button:focus, textarea:focus{
     width: 74px;
     height: 23px;
     left: 300px;
-    top: 2240px;
+    top: 290px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -391,7 +414,7 @@ input:focus, button:focus, textarea:focus{
     width: 310px;
     height: 23px;
     left: 440px;
-    top: 2240px;
+    top: 290px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -407,7 +430,7 @@ input:focus, button:focus, textarea:focus{
     width: 160px;
     height: 28px;
     left: 300px;
-    top: 2190px;
+    top: 250px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -422,7 +445,7 @@ input:focus, button:focus, textarea:focus{
 .twitter{
     position: absolute;
     right: 300px;
-    top: 2160PX;
+    top: 2000PX;
     bottom: 1%;
     width: 25PX;
 }
@@ -430,7 +453,7 @@ input:focus, button:focus, textarea:focus{
 .facebook{
     position: absolute;
     right: 350px;
-    top: 2160PX;
+    top: 2000PX;
     bottom: 2.77%;
     width: 25PX;
 }
@@ -438,7 +461,7 @@ input:focus, button:focus, textarea:focus{
 .insta{
     position: absolute;
     right: 400px;
-    top: 2160PX;
+    top: 2000PX;
     bottom: 2.77%;
     width: 25PX;
 }
@@ -446,7 +469,7 @@ input:focus, button:focus, textarea:focus{
 .linkedin{
     position: absolute;
     right: 450px;
-    top: 2160PX;
+    top: 2000PX;
     bottom: 2.77%;
     width: 25PX;
 }
@@ -454,7 +477,7 @@ input:focus, button:focus, textarea:focus{
 .youtube {
     position: absolute;
     right: 500px;
-    top: 2160PX;
+    top: 2000PX;
     width: 25PX;
     
 }

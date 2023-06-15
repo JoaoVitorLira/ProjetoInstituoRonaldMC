@@ -5,37 +5,45 @@
     text-decoration: none;
 }
 
-header {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-around;
-
-
-}
-
 .doeaqui,
-.promocoes,
-.parceiros,
-.nossaloja,
+.faleconosco,
 .sobrenos,
-.faleconosco {
-    margin-top: 70px;
-    left: 100px;
-    right: 100px;
+.nossaloja,
+.parceiros,
+.promocoes {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
 
+    color: #000000;
 }
+
+
+.barra {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    z-index: 99;
+    
+}
+
+
 
 a {
     color: #000000;
+    text-decoration: none;
 }
 
 .logo {
     width: 250px;
-    left: 0px;
-    margin-left: 100px;
+    
+
 }
 
 .doeaqui {
@@ -43,7 +51,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -53,7 +61,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 
@@ -63,7 +71,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -74,7 +82,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -83,7 +91,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -92,15 +100,14 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
 
-
 .introducao {
     width: 100%;
-    height: 1210px;
+    height: 990px;
     position: relative;
     top: 0px;
 
@@ -114,8 +121,8 @@ a {
 .titulo1 {
     position: absolute;
     width: 700px;
-    height: 62px;
-    left: 300px;
+    height: 10px;
+    margin-left: 200px;
     top: 160px;
 
     font-family: 'Roboto Slab';
@@ -129,10 +136,10 @@ a {
 
 .texto1 {
     position: absolute;
-    width: 726px;
+    width: 600px;
     height: 302px;
-    left: 300px;
-    top: 275px;
+    margin-left: 200px;
+    top: 290px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -147,8 +154,8 @@ a {
 .botaodoeaqui {
     position: absolute;
     width: 110px;
-    left: 300px;
-    top: 770px;
+    margin-left: 200px;
+    margin-top: -300px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -169,22 +176,30 @@ a {
 
 .barraamarela {
     background-color: #fec208;
+    height: 20px;
     position: absolute;
-    top: 1340px;
+    top: 975px;
     width: 100%;
-    z-index: 98;
+    z-index: 99;
 }
 
-.a {
-    color: #fec208;
+.teladepropaganda {
+    position: relative;
+    background: linear-gradient(180deg, #D80812 0%, #AD3400 100%);
+    width: 100%;
+    height: 650px;
+    margin-top: 0px;
+    z-index: 9;
+
 }
 
 .titulopromocao {
-    position: absolute;
+
     width: 521px;
     height: 97px;
-    left: 300px;
-    top: 1450px;
+    margin-left: 200px;
+
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 1000;
@@ -197,17 +212,17 @@ a {
 .burguer {
     position: absolute;
     width: 600px;
-    right: 300px;
-    top: 1400px;
+    right: 200px;
+    top: 000px;
 
 }
 
 .textopromocao {
-    position: absolute;
+
     width: 600px;
     height: 600px;
-    left: 300px;
-    top: 1600px;
+    margin-left: 200px;
+    margin-top: 100px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -216,22 +231,14 @@ a {
     color: rgb(255, 255, 255);
 }
 
-.teladepropaganda {
 
-    background: linear-gradient(180deg, #D80812 0%, #AD3400 100%);
-    width: 100%;
-    height: 750px;
-    top: 1900;
-    z-index: 9;
-
-}
 
 .botaoconfira {
     position: absolute;
     width: 197.47px;
     height: 65px;
-    left: 500px;
-    top: 1900px;
+    margin-left: 350px;
+    top: 500px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -248,20 +255,23 @@ a {
     border-radius: 40px;
 }
 
-.b {
+.inst
+
+.barraamarela2{
+    background-color: #fec208;
+    height: 20px;
     position: absolute;
-    color: #FEC208;
-    background-color: #FEC208;
-    top: 2090px;
+    top: 1630px;
     width: 100%;
+    z-index: 99;
 }
 
 .compre {
     position: absolute;
     width: 352px;
     height: 63px;
-    left: 300px;
-    top: 2200px;
+    left: 200px;
+    top: 1700px;
 
     font-family: 'Roboto Slab';
     font-style: normal;
@@ -277,9 +287,9 @@ a {
     position: absolute;
 
     height: 81px;
-    left: 300px;
-    top: 2290px;
-    right: 300PX;
+    left: 200px;
+    top: 1800px;
+    right: 200PX;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -295,19 +305,19 @@ a {
     position: absolute;
 
     height: 0px;
-    left: 300px;
-    top: 2400px;
-    right: 300px;
+    left: 200px;
+    top: 1900px;
+    right: 200px;
 
     border: 1px solid #000000;
 }
 
 .compretexto2 {
     position: absolute;
-    width: 738px;
+    width: 700px;
     height: 126px;
-    left: 300px;
-    top: 2435px;
+    left: 200px;
+    top: 1930px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -321,10 +331,10 @@ a {
 
 .linha2 {
     position: absolute;
-    right: 300px;
+    right: 200px;
     height: 0px;
-    left: 300px;
-    top: 2590px;
+    left: 200px;
+    top: 2080px;
 
     border: 1px solid #000000;
 }
@@ -334,8 +344,8 @@ a {
     right: 150px;
     width: 250px;
     height: 40px;
-    right: 300px;
-    top: 2465px;
+    right: 200px;
+    top: 1955px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -372,7 +382,7 @@ a {
     width: 1181px;
     height: 702px;
     left: calc(50% - 1181px/2 - 21.5px);
-    top: 2900px;
+    top: 2500px;
 
     background: url(image.png);
     border: 5px solid #FFFFFF;
@@ -383,7 +393,7 @@ a {
     position: absolute;
     width: 606px;
     height: 79px;
-    top: 2750px;
+    top: 2350px;
     left: 30%;
 
     font-family: 'Roboto Slab';
@@ -405,8 +415,8 @@ a {
     position: absolute;
     width: 528px;
     height: 109px;
-    left: 300px;
-    top: 3800px;
+    left: 200px;
+    top: 3300px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -418,15 +428,14 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-
 }
 
 .textomilhao {
     position: absolute;
     width: 612px;
     height: 164px;
-    left: 300px;
-    top: 3980px;
+    left:   200px;
+    top: 3500px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -441,28 +450,31 @@ a {
 
 .maos {
     position: absolute;
-    width: 334px;
-    height: 330px;
-    right: 300px;
-    top: 3900px;
+    width: 250px;
+    height: 250px;
+    right: 200px;
+    top: 3450px;
 }
 
-.final {
-    background: #EFECEC;
-    height: 300px;
+.barrafinal {
+
+    background: #ffffff;
+    height: 100%;
+
+
 }
 
 .politicasetermo {
     position: absolute;
     height: 28px;
     left: 300px;
-    right: 972px;
-    top: 4470px;
+    top: 4050px;
+    width: 400px;
 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
 
     color: #000000;
@@ -472,13 +484,13 @@ a {
     position: absolute;
     width: 225px;
     height: 23px;
-    left: 550px;
-    top: 4520px;
+    left: 500px;
+    top: 4100px;
 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 23px;
 
     color: #000000;
@@ -489,12 +501,12 @@ a {
     width: 200px;
     height: 23px;
     left: 300px;
-    top: 4520px;
+    top: 4100px;
 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 23px;
 
     color: #000000;
@@ -507,12 +519,12 @@ a {
     width: 74px;
     height: 23px;
     left: 300px;
-    top: 4620px;
+    top: 4190px;
 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 23px;
 
     color: #000000;
@@ -522,13 +534,13 @@ a {
     position: absolute;
     width: 310px;
     height: 23px;
-    left: 470px;
-    top: 4620px;
+    left: 440px;
+    top: 4190px;
 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 23px;
 
     color: #000000;
@@ -539,12 +551,12 @@ a {
     width: 160px;
     height: 28px;
     left: 300px;
-    top: 4570px;
+    top: 4140px;
 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
 
     color: #000000;
@@ -554,48 +566,54 @@ a {
 .twitter {
     position: absolute;
     right: 300px;
-    top: 4550PX;
-    bottom: 2.77%;
+    top: 4110PX;
+    bottom: 1%;
+    width: 25PX;
 }
 
 .facebook {
     position: absolute;
     right: 350px;
-    top: 4550PX;
+    top: 4110PX;
     bottom: 2.77%;
+    width: 25PX;
 }
 
 .insta {
     position: absolute;
     right: 400px;
-    top: 4550PX;
+    top: 4110PX;
     bottom: 2.77%;
+    width: 25PX;
 }
 
 .linkedin {
     position: absolute;
     right: 450px;
-    top: 4550PX;
+    top: 4110PX;
     bottom: 2.77%;
+    width: 25PX;
 }
 
 .youtube {
     position: absolute;
     right: 500px;
-    top: 4550PX;
-    bottom: 2.77%;
+    top: 4110PX;
+    width: 25PX;
+
 }
 
 .inst {
     width: 50px;
     position: absolute;
-    right: 320px;
-    top: 1375px;
+    right: 220px;
+    top: 550px;
 }
-.mc{
+
+.mc {
     width: 50px;
     position: absolute;
-    right: 390px;
-    top: 1390px;
+    right: 290px;
+    top: 565px;
 }
 

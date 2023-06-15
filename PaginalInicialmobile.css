@@ -85,6 +85,21 @@
         z-index: 9;
     }
 
+    .inst {
+        z-index: 9;
+        top: 450px;
+        height: 65px;
+        width: 55px;
+        left: 15px;
+    }
+
+    .mc {
+        z-index: 9;
+        top: 470px;
+        left: 70px;
+        height: 40px;
+    }
+
     .titulopromocao {
         z-index: 9;
         width: 60%;
@@ -142,7 +157,7 @@
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 5px;
         align-items: center;
         text-align: center;
@@ -171,7 +186,7 @@
     }
 
     .botaonossaloja {
-        
+
         width: 140px;
         height: 40px;
         left: 30%;
@@ -202,11 +217,122 @@
         height: 65px;
         left: 10%;
         top: 1500px;
-        
+
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
         line-height: 20px;
+    }
+
+
+    .crianca {
+        position: absolute;
+        width: 100%;
+        height: 320px;
+        left: 0px;
+        top: 1650px;
+
+        background: linear-gradient(180deg, #1B0400 0%, #7D1300 46.67%);
+    }
+
+    .titulolove {
+        position: absolute;
+        width: 239px;
+        height: 24px;
+        left: calc(50% - 239px/2 + 0.5px);
+        top: 10%;
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 32px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+    }
+
+    .b {
+        top: 270%;
+
+    }
+
+    .criancaimg {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 300px;
+        height: 175px;
+        left: calc(50% - 300px/2);
+        top: 35%;
+
+        background: url(image.png);
+        border: 0.5px solid #FFFFFF;
+        border-radius: 37px;
+    }
+
+    .ultima {
+        background-color: #ffffff;
+        height: 400px;
+        top: 15%;
+    }
+
+    .tresmilhao {
+        position: absolute;
+        width: 528px;
+        height: 109px;
+        left: 300px;
+        top: 3800px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 90px;
+        line-height: 109px;
+
+        background: linear-gradient(180deg, #FF2600 0%, #721100 53.12%, #000000 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .tresmilhao {
+        text-align: center;
+        width: 211px;
+        height: 44px;
+        left: 23%;
+        top: 2000px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .textomilhao {
+        position: absolute;
+        width: 199px;
+        height: 49px;
+        left: calc(50% - 199px/2 + 0.5px);
+        top: 2075px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: justify;
+    }
+
+    .maos {
+        
+        width: 40%;
+        height: 20%;
+        left: 30%;
+        top: 2150px;
+        
     }
 }

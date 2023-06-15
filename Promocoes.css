@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+
+a {
+    color: black;
+}
+
+.final {
+    background-color: beige;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.politicasetermo {
+    margin-left: 200px;
+}
+
+.termosecondicoes {
+    margin-left: 200px;
+    margin-top: -17px;
+}
+
+.politicasdeprivacidade {
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.faleconoscobarrabaixo {
+    margin-left: 200PX;
+    margin-top: 20PX;
+}
+
+.contato {
+    margin-left: 200px;
+    margin-top: -17px;
+    width: 100px;
+}
+
+.acessoriaeimprensa {
+    margin-left: 300px;
+    margin-top: 10px;
+    width: 210px;
+
+
+}
+
+.barra {}
+
+.icones {
+    display: flex;
+    align-items: center;
+    right: 200px;
+    margin-right: 200px;
+}
+
+.twitter,
+.insta,
+.facebook,
+.youtube,
+.linkedin {
+
+    padding: 10px;
+    width: 20px;
+}
+
+.linkedin {
+
+    width: 20px;
+    height: 20px;
+    right: 200px;
+
+}

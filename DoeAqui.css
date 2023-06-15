@@ -4,16 +4,6 @@
     border: 0;
 }
 
-.fundo {
-    background-image: url(DoeAquiImagens/FundoDoeAqui.png);
-    height: 3000px;
-
-}
-
-.coracao {
-    width: 15px;
-}
-
 .doeaqui,
 .faleconosco,
 .sobrenos,
@@ -31,31 +21,116 @@
 
 
 .barra {
+    width: 100%;
     position: absolute;
-    left: 300px;
-    right: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: white;
+    
 }
+
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo {
+    width: 250px;
+    
+
+}
+
+.doeaqui {
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.promocoes {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+
+}
+
+.parceiros {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.nossaloja {
+
+    top: 71px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.sobrenos {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.faleconosco {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.fundo {
+    background-image: url(DoeAquiImagens/FundoDoeAqui.png);
+    height: 3000px;
+
+}
+
+.coracao {
+    width: 15px;
+}
+
+
 
 .partebranca {
     position: absolute;
     background-color: white;
-    right: 300px;
-    left: 300px;
+    margin-right: 300px;
+    margin-left: 300px;
     height: 2600px;
     top: 300px;
+    position: relative;
 }
 
 .titulo1 {
-    position: absolute;
-    width: 1030px;
-    height: 128px;
-    left: 110px;
-    top: 100px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+
+
 
     font-family: 'Inter';
     font-style: normal;
@@ -68,12 +143,10 @@
 }
 
 .titulo2 {
-    position: absolute;
-    width: 1030px;
-    height: 128px;
-    left: 110px;
-    top: 180px;
-
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -85,11 +158,10 @@
 }
 
 .valores {
-    position: absolute;
-    width: 280px;
-    height: 52px;
-    left: 160px;
-    top: 400px;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -102,11 +174,9 @@
 }
 
 .quinze {
-    position: absolute;
-    width: 100px;
-    height: 53px;
-    left: 160px;
-    top: 550px;
+    margin-left: 160px;
+    margin-top: 160PX;
+
 
     font-family: 'Roboto Slab';
     font-style: normal;
@@ -115,16 +185,16 @@
     line-height: 53px;
     background-color: #7D1300;
     border-radius: 20px;
+    width: 100px;
 
     color: #ffffff;
 }
 
 .vinte {
-    position: absolute;
+    position: relative;
+    margin-left: 14%;
+    margin-top: 160px;
     width: 100px;
-    height: 53px;
-    left: 570px;
-    top: 550px;
 
     font-family: 'Roboto Slab';
     font-style: normal;
@@ -139,10 +209,12 @@
 
 .trinta {
     position: absolute;
-    width: 100px;
-    height: 53px;
+
     right: 160px;
-    top: 550px;
+    top: 533px;
+    width: 100px;
+
+
 
     font-family: 'Roboto Slab';
     font-style: normal;
@@ -151,6 +223,7 @@
     line-height: 53px;
     background-color: #7D1300;
     border-radius: 20px;
+
 
     color: #FFFFFF;
 }
@@ -175,10 +248,11 @@
 
 .setenta {
     position: absolute;
-    width: 100px;
-    height: 53px;
-    left: 570px;
+   left: 385px;
     top: 650px;
+    width: 100px;
+
+
 
     font-family: 'Roboto Slab';
     font-style: normal;
@@ -193,10 +267,10 @@
 
 .cem {
     position: absolute;
-    width: 100px;
-    height: 53px;
+
     right: 160px;
     top: 650px;
+    width: 100px;
 
     font-family: 'Roboto Slab';
     font-style: normal;
@@ -436,7 +510,7 @@
 
 .vencimento {
     position: absolute;
-    width: 290px;
+    width: 250px;
     height: 35px;
     left: 160px;
     top: 1650px;
@@ -458,7 +532,7 @@
     height: 30px;
     left: 160px;
     top: 1690px;
-    right: 660px;
+    right: 500px;
 
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -470,7 +544,7 @@
     position: absolute;
     width: 290px;
     height: 35px;
-    left: 650px;
+    left: 500px;
     top: 1650px;
 
     font-family: 'Raleway';
@@ -486,9 +560,11 @@
     box-sizing: border-box;
 
     position: absolute;
+    left: 500px;
+
 
     height: 30px;
-    left: 650px;
+
     top: 1690px;
     right: 160px;
 
@@ -585,6 +661,7 @@
     left: 160px;
     top: 2100px;
 
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -600,9 +677,11 @@
     position: absolute;
 
     height: 30px;
-    left: 160px;
+
     top: 2140px;
-    right: 660px;
+
+    left: 160px;
+    right: 500px;
 
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -614,7 +693,7 @@
     position: absolute;
     width: 290px;
     height: 35px;
-    left: 650px;
+    left: 500px;
     top: 2100px;
 
     font-family: 'Raleway';
@@ -630,11 +709,11 @@
     box-sizing: border-box;
 
     position: absolute;
-
-    height: 30px;
-    left: 650px;
-    top: 2140px;
+    left: 500px;
     right: 160px;
+    height: 30px;
+    top: 2140px;
+
 
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -663,10 +742,12 @@
 
     position: absolute;
 
-    height: 30px;
     left: 160px;
+    right: 500px;
+    height: 30px;
+
     top: 2240px;
-    right: 660px;
+
 
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -678,7 +759,7 @@
     position: absolute;
     width: 290px;
     height: 35px;
-    left: 650px;
+    left: 500px;
     top: 2200px;
 
     font-family: 'Raleway';
@@ -696,9 +777,10 @@
     position: absolute;
 
     height: 30px;
-    left: 650px;
-    top: 2240px;
+    left: 500px;
     right: 160px;
+    top: 2240px;
+
 
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -739,11 +821,11 @@
 }
 
 .doar {
-    position: absolute;
-    width: 94px;
-    height: 41px;
-    left: 580px;
-    top: 2450px;
+    text-align: center;
+    margin-top: 1600px;
+    margin-left: 46%;
+
+    padding: 0px 10px 0px 10px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -762,10 +844,10 @@ a {
 }
 
 .barrafinal {
-   
+
     background: #ffffff;
     height: 50px;
-   
+
 
 }
 
@@ -812,7 +894,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 23px   ;
+    line-height: 23px;
 
     color: #000000;
 }
@@ -868,7 +950,7 @@ a {
 
 }
 
-.twitter{
+.twitter {
     position: absolute;
     right: 300px;
     top: 3110PX;
@@ -876,7 +958,7 @@ a {
     width: 25PX;
 }
 
-.facebook{
+.facebook {
     position: absolute;
     right: 350px;
     top: 3110PX;
@@ -884,7 +966,7 @@ a {
     width: 25PX;
 }
 
-.insta{
+.insta {
     position: absolute;
     right: 400px;
     top: 3110PX;
@@ -892,7 +974,7 @@ a {
     width: 25PX;
 }
 
-.linkedin{
+.linkedin {
     position: absolute;
     right: 450px;
     top: 3110PX;
@@ -905,5 +987,5 @@ a {
     right: 500px;
     top: 3110PX;
     width: 25PX;
-    
+
 }

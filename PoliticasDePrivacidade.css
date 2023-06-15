@@ -6,36 +6,44 @@
 }
 
 
-header {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    background-color: #FEC208;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-
 .doeaqui,
-.promocoes,
-.parceiros,
-.nossaloja,
+.faleconosco,
 .sobrenos,
-.faleconosco {
-    margin-top: 70px;
+.nossaloja,
+.parceiros,
+.promocoes {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
 
+    color: #000000;
 }
+
+
+.barra {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    
+}
+
+
 
 a {
     color: #000000;
+    text-decoration: none;
 }
 
 .logo {
     width: 250px;
-    left: 0px;
-    margin-left: 100px;
-   
+    
+
 }
 
 .doeaqui {
@@ -43,7 +51,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -53,7 +61,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 
@@ -63,7 +71,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -74,7 +82,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -83,7 +91,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -92,7 +100,7 @@ a {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 27px;
     color: #000000;
 }
@@ -175,7 +183,7 @@ a {
 }
 
 .final{
-    
+
     height: 100px;
     top: 1800px;
 }
@@ -313,4 +321,3 @@ a {
     top: 1800PX;
     bottom: 2.77%;
 }
-
