@@ -1,0 +1,358 @@
+.menu {
+    border: 0;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.doeaqui,
+.promocoes,
+.parceiros,
+.nossaloja,
+.sobrenos,
+.faleconosco,
+.logo {
+    margin-top: 70px;
+
+
+}
+
+a {
+    color: #000000;
+}
+
+.logo {
+    width: 250px;
+    left: 0px;
+    margin-left: 100px;
+}
+
+.doeaqui {
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.promocoes {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+
+}
+
+.parceiros {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.nossaloja {
+
+    top: 71px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.sobrenos {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.faleconosco {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.sobrenostudo {
+    background: linear-gradient(180deg, #1B0400 0%, #7D1300 100%);
+    height: 1600px;
+    width: 100%;
+}
+
+.instituto {
+    background-image: url(SobreNosImagens/certaC.png);
+    height: 700px;
+    
+    position: relative;
+    border: 5px solid #000000;
+}
+
+.textoinstituto {
+    position: relative;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 112px;
+
+    width: 900px;
+    left: 500px;
+    right: 500px;
+
+    color: #FFFFFF;
+
+    display: flex;
+    top: 200px;
+    text-align: center;
+}
+
+.missao {
+
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 84px;
+    margin-left: 300px;
+
+    color: #FFFFFF;
+
+}
+
+.missaotexto {
+    font-family: 'Questrial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
+
+    text-align: justify;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.visao {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 84px;
+    margin-left: 300px;
+
+    color: #FFFFFF;
+}
+
+.visaotexto {
+    font-family: 'Questrial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
+
+    text-align: justify;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.qmsomos {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 84px;
+    margin-left: 300px;
+
+    color: #FFFFFF;
+}
+
+.textoqmsomos {
+    font-family: 'Questrial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
+
+    text-align: justify;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.final {
+   
+    background: #ffffff;
+    height: 50px;
+   
+
+}
+
+.politicasetermo {
+    position: absolute;
+    height: 28px;
+    left: 300px;
+    right: 972px;
+    top: 1800px;
+    width: 400px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.politicasdeprivacidade {
+    position: absolute;
+    width: 225px;
+    height: 23px;
+    left: 500px;
+    top: 1850px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.termosecondicoes {
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 300px;
+    top: 1850px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px   ;
+
+    color: #000000;
+}
+
+
+
+.contato {
+    position: absolute;
+    width: 74px;
+    height: 23px;
+    left: 300px;
+    top: 1950px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.acessoriaeimprensa {
+    position: absolute;
+    width: 310px;
+    height: 23px;
+    left: 420px;
+    top: 1950px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.faleconoscobarrabaixo {
+    position: absolute;
+    width: 160px;
+    height: 28px;
+    left: 300px;
+    top: 1900px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+.twitter{
+    position: absolute;
+    right: 300px;
+    top: 1880PX;
+    bottom: 1%;
+    width: 20PX;
+}
+
+.facebook{
+    position: absolute;
+    right: 350px;
+    top: 1880PX;
+    bottom: 2.77%;
+    width: 20PX;
+}
+
+.insta{
+    position: absolute;
+    right: 400px;
+    top: 1880PX;
+    bottom: 2.77%;
+    width: 20PX;
+}
+
+.linkedin{
+    position: absolute;
+    right: 450px;
+    top: 1880PX;
+    bottom: 2.77%;
+    width: 20PX;
+}
+
+.youtube {
+    position: absolute;
+    right: 500px;
+    top: 1880PX;
+    width: 20PX;
+    
+}

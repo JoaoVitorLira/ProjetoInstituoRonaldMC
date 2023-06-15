@@ -95,6 +95,7 @@ a {
 }
 
 .linha{
+    margin-top: 20px;
     width: 100%;
     height: 0px; 
     border: 0.3px solid #000000;
@@ -313,8 +314,8 @@ input:focus, button:focus, textarea:focus{
 
 .barrafinal {
    
-    background: #ffffff;
-    height: 50px;
+    background: #C8C8C8;
+    height: 200px;
    
 
 }
@@ -323,7 +324,7 @@ input:focus, button:focus, textarea:focus{
     position: absolute;
     height: 28px;
     left: 300px;
-    top: 3050px;
+    top: 2100px;
     width: 400px;
 
     font-family: 'Raleway';
@@ -340,7 +341,7 @@ input:focus, button:focus, textarea:focus{
     width: 225px;
     height: 23px;
     left: 500px;
-    top: 3100px;
+    top: 2150px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -356,7 +357,7 @@ input:focus, button:focus, textarea:focus{
     width: 200px;
     height: 23px;
     left: 300px;
-    top: 3100px;
+    top: 2150px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -374,7 +375,7 @@ input:focus, button:focus, textarea:focus{
     width: 74px;
     height: 23px;
     left: 300px;
-    top: 3190px;
+    top: 2240px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -390,7 +391,7 @@ input:focus, button:focus, textarea:focus{
     width: 310px;
     height: 23px;
     left: 440px;
-    top: 3190px;
+    top: 2240px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -406,7 +407,7 @@ input:focus, button:focus, textarea:focus{
     width: 160px;
     height: 28px;
     left: 300px;
-    top: 3140px;
+    top: 2190px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -421,7 +422,7 @@ input:focus, button:focus, textarea:focus{
 .twitter{
     position: absolute;
     right: 300px;
-    top: 3110PX;
+    top: 2160PX;
     bottom: 1%;
     width: 25PX;
 }
@@ -429,7 +430,7 @@ input:focus, button:focus, textarea:focus{
 .facebook{
     position: absolute;
     right: 350px;
-    top: 3110PX;
+    top: 2160PX;
     bottom: 2.77%;
     width: 25PX;
 }
@@ -437,7 +438,7 @@ input:focus, button:focus, textarea:focus{
 .insta{
     position: absolute;
     right: 400px;
-    top: 3110PX;
+    top: 2160PX;
     bottom: 2.77%;
     width: 25PX;
 }
@@ -445,7 +446,7 @@ input:focus, button:focus, textarea:focus{
 .linkedin{
     position: absolute;
     right: 450px;
-    top: 3110PX;
+    top: 2160PX;
     bottom: 2.77%;
     width: 25PX;
 }
@@ -453,7 +454,14 @@ input:focus, button:focus, textarea:focus{
 .youtube {
     position: absolute;
     right: 500px;
-    top: 3110PX;
+    top: 2160PX;
     width: 25PX;
     
+}
+
+.linha2{
+    margin-top: 160px;
+    width: 100%;
+    height: 0px; 
+    border: 0.3px solid #000000;
 }

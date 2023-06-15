@@ -1,0 +1,277 @@
+@media screen and (max-width:25rem){
+   
+    .logo1{
+        width: 170px;
+        margin-left: 75%;
+    }
+
+    .linha{
+        width: 100%;
+    }
+
+    .parce{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .parcei{
+        top: 50px;
+        width: 150px;
+        position: relative;
+        align-items: center;
+        z-index: 98;
+    }
+
+    .titulo{
+    top: 20px;
+    font-size: 20px;
+   }
+
+   .empresas{
+    display: flex;
+    justify-content: space-around;
+}
+   
+
+   .brf{
+    width: 137px;
+    height: 69px;
+    margin-left: 15%;
+}
+
+.aug{
+    height: 69px;
+    width: 105px;
+    margin-right: 15%;
+    margin-left: 30%;
+}
+
+.dro{
+    width: 144px;
+    height: 57px ;
+    margin-left: 3%;
+    margin-right: 50%;
+}
+
+.atac{
+    width: 117px;
+    height: 57px;
+    margin-right: 15%;
+}
+
+.titulo2{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    top: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.texto{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    color: white;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 15px;
+}
+
+.texto2{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    color: white;
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 15px;
+}
+
+.selo{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.selo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.seloo{
+    width: 50%;
+}
+
+.confirma{
+    margin-top: 25px;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: black;
+    justify-content: center;
+}
+
+.dispo{
+    margin-top: 25px;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #7D1300;
+    justify-content: center;
+    
+}
+
+.barrafinal {
+   
+    background: #C8C8C8;
+    height: 200px;
+   
+
+}
+
+.politicasetermo {
+    position: absolute;
+    height: 28px;
+    left: 300px;
+    top: 2100px;
+    width: 400px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.politicasdeprivacidade {
+    position: absolute;
+    width: 225px;
+    height: 23px;
+    left: 500px;
+    top: 2150px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.termosecondicoes {
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 300px;
+    top: 2150px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px   ;
+
+    color: #000000;
+}
+
+
+
+.contato {
+   
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.acessoriaeimprensa {
+    position: absolute;
+    width: 310px;
+    height: 23px;
+    left: 440px;
+    top: 2240px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.faleconoscobarrabaixo {
+    
+    width: 160px;
+    height: 28px;
+    left: 300px;
+    top: 2190px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+.twitter{
+    
+    
+    top: 2160PX;
+    bottom: 1%;
+    width: 25PX;
+}
+
+.facebook{
+    
+    right: 350px;
+    top: 2160PX;
+    bottom: 2.77%;
+    width: 25PX;
+}
+
+.insta{
+    right: 400px;
+    top: 2160PX;
+    bottom: 2.77%;
+    width: 25PX;
+}
+
+.linkedin{
+    right: 450px;
+    top: 2160PX;
+    bottom: 2.77%;
+    width: 25PX;
+}
+
+.youtube {
+    
+    margin-left: 15%;
+    top: 200px;
+    width: 5PX;
+    
+}
+
+.linha2{
+    margin-top: 20%;
+    width: 100%;
+    height: 0px; 
+    border: 0.3px solid #000000;
+}
+
+}
