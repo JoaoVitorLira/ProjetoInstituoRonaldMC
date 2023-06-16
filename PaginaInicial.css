@@ -168,6 +168,11 @@ a {
     align-items: center;
 }
 
+.botaodoeaqui:hover{
+    background-color: #FEC208;
+    transition: 1s;
+}
+
 .coracao2 {
     width: 20px;
     height: 20px;

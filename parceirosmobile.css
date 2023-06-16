@@ -9,14 +9,98 @@
         width: 100%;
     }
 
+    .logo {
+        width: 140px;
+        height: 60px;
+        margin-left: -45%;
+    }
+
+    .barra{
+        display: flex;
+        padding: 2px;
+    }
+    
+    .doeaqui {
+    
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #000000;
+        margin-left: -53%;
+    }
+    
+    .promocoes {
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #000000;
+        margin-left: -45%;
+        
+    
+    }
+    
+    .parceiros {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #000000;
+        margin-top: 17%;
+        margin-left: -45%;
+        
+    }
+    
+    .nossaloja {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #000000;
+        margin-top: 10;
+        margin-left: -55%;
+    }
+    
+    .sobrenos {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #000000;
+        margin-top: 17%;
+        margin-left: -90%;
+        
+        
+    }
+    
+    .faleconosco {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #000000;
+        margin-top: 17%;
+        margin-left: -42%;
+        
+        
+    }
+
     .parce{
         display: flex;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 60px;
     }
 
     .parcei{
-        top: 50px;
+        top: 70px;
         width: 150px;
         position: relative;
         align-items: center;
@@ -24,7 +108,7 @@
     }
 
     .titulo{
-    top: 20px;
+    top: 40px;
     font-size: 20px;
    }
 

@@ -419,6 +419,11 @@ a {
     border: 2px solid black;
 }
 
+.enviar:hover{
+    background-color: #fec008;
+    transition: 0.5s;
+}
+
 .cadastro {
    position: absolute;
    top: 930px;

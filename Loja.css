@@ -29,6 +29,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: white;
+    border-bottom: solid 2px black;
     
 }
 
@@ -111,7 +112,7 @@ a {
     font-size: 60px;
     line-height: 121px;
     text-align: center;
-   
+    margin-top: 10%;
     align-items: center;
     
     color: #7D1300;
@@ -380,18 +381,22 @@ a {
 
 .comprar:hover{
     background-color: #FF2D08;
+    transition: 1s;
 }
 
 .comprarsueter:hover{
     background-color:  #FF2D08;
+    transition: 1s;
 }
 
 .comprarmeias:hover{
     background-color:  #FF2D08;
+    transition: 1s;
 }
 
 .comprarbolsa:hover{
     background-color:  #FF2D08;
+    transition: 1s;
 }
 
 
@@ -733,6 +738,10 @@ a {
 .meias {
     width: 280px;
     height: 400px;
+}
+
+.final{
+    border-top: solid black 2px;
 }
 
 .barrafinal {
