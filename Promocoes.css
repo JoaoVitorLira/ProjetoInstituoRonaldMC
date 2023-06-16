@@ -227,7 +227,7 @@ a {
 
 .sla {
     position: absolute;
-    left: 550px;
+    left: 250px;
     right: 550px;
     top: 200px;
 }
@@ -239,9 +239,9 @@ a {
     font-size: 40px;
     line-height: 47px;
     text-align: justify;
-    margin-left: 200px;
-    margin-right: 700px;
-    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 00px;
+    margin-top: 250px;
 
     color: #000000;
 
@@ -253,7 +253,7 @@ a {
     overflow: hidden;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 200px;
+    margin-left: 40px;
 }
 
 .titulocp {
@@ -303,10 +303,10 @@ a {
 }
 
 .instituto {
-    margin-top: 200px;
+    margin-top: 240px;
     display: flex;
     justify-content: space-evenly;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 
@@ -378,13 +378,13 @@ a {
     display: flex;
     justify-content: center;
 
-    padding: 5px;
+    padding: 5px 15px 5px 15px;
     height: 60px;
 
     border: 4px solid #000000;
 
     color: #000000;
-    background-color: #ffcc00;
+    background-color: #ffffff;
     border-radius: 40px;
 }
 
@@ -428,13 +428,13 @@ a {
     display: flex;
     justify-content: center;
 
-    padding: 5px;
+    padding: 5px 15px 5px 15px;
     height: 60px;
 
     border: 4px solid #000000;
 
     color: #000000;
-    background-color: #FFCC00;
+    background-color: #ffffff;
     border-radius: 40px;
 }
 
@@ -478,13 +478,13 @@ a {
     display: flex;
     justify-content: center;
 
-    padding: 5px;
+    padding: 5px 15px 5px 15px;
     height: 60px;
 
     border: 4px solid #000000;
 
     color: #000000;
-    background-color: #FFCC00;
+    background-color: #ffffff;
     border-radius: 40px;
 }
 
